@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
 .logo {
     background-image: url("../images/logo.jpg");
@@ -30,7 +29,7 @@
 }
 .hero-container {
     margin:0 auto;
-    padding: 5% 5%;
+    padding: 2% 2%;
     background-color:rgb(220,220,220);
 }
 .hero-gif {
@@ -49,13 +48,37 @@
     }
 }
 .icon{
-    height: 20px;
+    height: 50px;
     margin: 40%;
 }
 .icon i{
     color: rgb(200,200,200);
     font-size: 36px;
     text-decoration: none;
-    padding:10px 20px;
+    padding: 10px 20px;
     margin: 0 auto;
+}
+.cover-text h2,h3{
+    color: white;
+    font-family: 'Roboto',sans-serif;
+}
+.cover-text h3{
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 200;
+
+}
+.cover-text{
+    width: 300px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: rgba(50,50,50,.9);
+    bottom: 22px;
+    right: 30px;
+    position: absolute;
+}
+
+.hero-container{
+    position:relative;
 }

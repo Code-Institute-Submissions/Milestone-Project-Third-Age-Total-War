@@ -4,9 +4,14 @@
 .logo {
     background-image: url("../images/logo.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    height: 300px;
+}
+@media only screen and (min-width: 765px) {
+    .logo {
     height: 200px;
+    }
 }
 
 .title {
@@ -17,18 +22,40 @@
     background-size: contain;
     background-color: rgba(34,45,37,1)
 }
-
-.hero-gif{
-    background-image: url(https://gifs.com/gif/the-third-age-total-war-intros-factions-lxL8z1?muted=false);
+@media only screen and (min-width: 765px) {
+    .title{
+        left: 0;
+        background-size:contain;
+    }
+}
+.hero-container {
+    margin:0 auto;
+    padding: 5% 5%;
+    background-color:rgb(220,220,220);
+}
+.hero-gif {
+    background-image: url(https://j.gifs.com/lxL8z1.gif);
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
 }
 
+@media only screen and (min-width: 765px) {
+    .hero-gif {
+    height: 600px;
+    }
+}
 .icon{
     height: 20px;
+    margin: 40%;
 }
 .icon i{
     color: rgb(200,200,200);
     font-size: 36px;
     text-decoration: none;
-    position: center;
+    padding:10px 20px;
     margin: 0 auto;
 }

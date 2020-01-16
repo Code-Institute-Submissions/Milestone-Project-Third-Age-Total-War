@@ -1,5 +1,34 @@
 
 
-logo{
-    background-image: url("assets/images/logo.jpg");
+
+.logo {
+    background-image: url("../images/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.title {
+    background-image: url("../images/thirdagetitle1.jpg");
+    height: 140px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: rgba(34,45,37,1)
+}
+
+.hero-gif{
+    background-image: url(https://gifs.com/gif/the-third-age-total-war-intros-factions-lxL8z1?muted=false);
+}
+
+.icon{
+    height: 20px;
+}
+.icon i{
+    color: rgb(200,200,200);
+    font-size: 36px;
+    text-decoration: none;
+    position: center;
+    margin: 0 auto;
 }

@@ -19,9 +19,9 @@
 
 	<header>
 		<div class="row no-gutters">
-			<a href="index.html" class="col-md-6 logo">
+			<a href="index.html" class="col-12 col-md-4 logo">
 			</a>
-			<div class="col-12 col-md-6">
+			<div class="col-12 col-md-8">
 				<div class="row no-gutters">
 					<div class="col title">
 					</div>
@@ -80,7 +80,49 @@
 			</div>
 
 		</div>
-		<h2>Play epic locations from the movies!</h2>
+        <div class="row">
+        <div class="col mymodal">
+		<!-- Button trigger modal from https://getbootstrap.com/docs/4.0/components/modal/-->
+		<button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">
+                                Click here to
+                                get the Third Age Total War!
+                                </button>
+        </div>
+        </div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title text-black" id="exampleModalLabel"> How to get Third Age: Total War? </h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+					</div>
+					<div class="modal-body ">
+                    <p class="text-black">In order to play Third Age: Total War you will need the original Medieval 2: Total War game files. This can be purchased and downloaded, on steam, from the link below:
+                    </p>
+                    <a class="text-black modal-icon"
+						href="https://store.steampowered.com/app/4700/Total_War_MEDIEVAL_II__Definitive_Edition/"
+						target="_blank">
+						 Medieval 2: Total War <br></br><i class="fab fa-steam-square"></i>
+					</a>
+                   <br></br>
+                    <h5 class="modal-header">Already have Medieval 2: Total War?</h5>
+                    <p> Follow the link to the download page <a href="https://www.moddb.com/mods/third-age-total-war/downloads"
+											target="_blank"><i>here</i></a> and follow the instructions to install the Third Age Total War content!</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Taken from https://getbootstrap.com/docs/4.0/components/carousel/  -->
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
@@ -113,6 +155,8 @@
 										<span class="sr-only">Next</span>
 									</a>
 								</div>
+								<h2 class="gallery-title">Play epic locations from the Lord of the Rings Trilogy!</h2>
+
 	</section>
 
 	<!-- Footer from https://mdbootstrap.com/docs/jquery/navigation/footer/ edited-->

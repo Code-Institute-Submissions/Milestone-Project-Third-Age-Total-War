@@ -258,7 +258,7 @@ body{
     border-radius: 50%;
 }
 .mordor{
-    background-image: url("../images/rohan.jpg");
+    background-image: url("../images/mordor.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -268,7 +268,7 @@ body{
 }
 
 .isengard{
-    background-image: url("../images/rohan.jpg");
+    background-image: url("../images/isengard.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -276,8 +276,8 @@ body{
     height: 100%;
     border-radius: 50%;
 }
-.orcsmistymountains{
-    background-image: url("../images/rohan.jpg");
+.orcsmistymountain{
+    background-image: url("../images/mistymountains.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -285,8 +285,8 @@ body{
     height: 100%;
     border-radius: 50%;
 }
-.orcsGundabad{
-    background-image: url("../images/rohan.jpg");
+.orcsgundabad{
+    background-image: url("../images/gundabad.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -295,7 +295,7 @@ body{
     border-radius: 50%;
 }
 .rhun{
-    background-image: url("../images/rohan.jpg");
+    background-image: url("../images/rhun.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -305,7 +305,7 @@ body{
 }
 
 .harad{
-    background-image: url("../images/rohan.jpg");
+    background-image: url("../images/harad.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -314,4 +314,19 @@ body{
     border-radius: 50%;
 }
 
+.contactform{
+    width: 100%;
+    text-align: center;
+    padding: 30px 20%;
+}
+input{
+width: 100%;
+border-radius: 4px;
+}
+input[type=multiple] {
+height: 300px;
+}
 
+input, textarea{
+  resize: none;
+}

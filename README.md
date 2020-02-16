@@ -72,7 +72,6 @@ Feature 8 - allows users to contact the mod developers to ask a question or leav
 Feature 9 - allows users to navigate to relevant social pages to find more information about the companies involved in the parent game and mod, by clicking the social links at the bottom of each page. 
 
 
-
 Features Left to Implement
 Another feature idea was to add a direct file download and guide to installation, not just links to pages where this is available.
  This would require file hosting and 

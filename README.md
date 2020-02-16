@@ -46,7 +46,7 @@ The menu will provide navigation to the various parts of the project including t
 It also has a logo that returns to the home page.
 2. Hero Gif
 The hero GIF at the start is the in game version of the Charge of the Rohirrim one of the iconic scenes of the movie and right away will grab fans.
-The overlay will also describe the mod in more detail for those not sure what it is. 
+The overlay will also describe the mod in more detail for those not sure what it is when they mouse over it. 
 3. Modal
 The modal will provide information and links to both download pages for the parent game and mod.
 4. Gallery
@@ -64,7 +64,13 @@ The footer contains social links to: Facebook, Steam, Linked in and the total wa
 
 
 Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
+Feature 1 - allows users navigate to achieve reaching a new area of website, by having them click the part they want to go to.
+Feature 2 - allows users to watch the clip and read the overlay to achieve them gaining more information on the mod, by having hover over the gif to read the text.
+Feature 3 - allows users to find how to download the mod or parent game, to achieve reaching an area where they can acquire it, by clicking the button and following the instructions to the relevant links. 
+Feature 4 - allows users to see in game images, to boost engagement and excitement, by clicking the arrows to the left and right to see more images. 
+Feature 8 - allows users to contact the mod developers to ask a question or leave feedback, by filling in and sending the contact form on the contact page. 
+Feature 9 - allows users to navigate to relevant social pages to find more information about the companies involved in the parent game and mod, by clicking the social links at the bottom of each page. 
+
 
 
 Features Left to Implement

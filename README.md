@@ -7,7 +7,7 @@ With images and content associated with the mod also being amateur in style the 
 the mod itself as well as links to both social and download pages for the mod, original game and links to the Total War associated sites. This should
 both boost mod usage and downloads while also increasing traffic to social pages and the Total War parent company site. 
 
-UX
+###UX###
 The main users of this game will be people who already possess the Medieval 2 Total War game and are looking for information about the mod. This 
 will likely include lord of the rings fans and gamers, hence the amount of lord of the rings lore and media is extensive and meant to drive engagement.
 Besides this there will also be users who have never played the original Medieval total war but are interested in Lord of the Rings or vice versa.
@@ -15,7 +15,7 @@ gamers that have never seen Lord of the Rings. There may also be some who do not
 but are interested in knowing more. This site should provide information to all groups in a user friendly manner. There may also be aspiring mod developers that want to 
 learn more about mod creation, gain ideas and possibly contact the creator of this particular mod. 
 
-User Stories
+###User Stories###
 
 As a mod developer from Third Age tw, I want to gain feedback on the mod I have created, so that I can find areas that need updating and how to improve during my next release/patch.
 
@@ -31,14 +31,13 @@ As a total war developer, I want my game to be publicized as much as possible, s
 
 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+###Wireframes###
+[Home Page](assets/wireframes/home.pdf)
+[Contact Page](assets/wireframes/contact.pdf)
+[Good Factions Page](assets/wireframes/good.pdf)
+[Evil Factions Page](assets/wireframes/evil.pdf)
 
-Wireframes https://b30969fe-94ad-4f63-bb98-a369b84e53e7.ws-eu01.gitpod.io/files/download/?id=39c81089-e09b-49ad-b6ad-e6b938d4ed94
-https://b30969fe-94ad-4f63-bb98-a369b84e53e7.ws-eu01.gitpod.io/files/download/?id=471ed1ef-58c8-466a-a006-d9d55b8e74a2
-https://b30969fe-94ad-4f63-bb98-a369b84e53e7.ws-eu01.gitpod.io/files/download/?id=9ea99dc6-88f2-4b2d-95bd-959d9dfee3f7
-https://b30969fe-94ad-4f63-bb98-a369b84e53e7.ws-eu01.gitpod.io/files/download/?id=be9215cd-8995-4315-aaab-73b1a8169812
-
-Features
+###Features###
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 1. Menu
@@ -63,7 +62,7 @@ A contact page allows reviews or questions to be addressed to the creators of th
 The footer contains social links to: Facebook, Steam, Linked in and the total war page (via its logo)
 
 
-Existing Features
+###Existing Features###
 Feature 1 - allows users navigate to achieve reaching a new area of website, by having them click the part they want to go to.
 Feature 2 - allows users to watch the clip and read the overlay to achieve them gaining more information on the mod, by having hover over the gif to read the text.
 Feature 3 - allows users to find how to download the mod or parent game, to achieve reaching an area where they can acquire it, by clicking the button and following the instructions to the relevant links. 
@@ -72,43 +71,43 @@ Feature 8 - allows users to contact the mod developers to ask a question or leav
 Feature 9 - allows users to navigate to relevant social pages to find more information about the companies involved in the parent game and mod, by clicking the social links at the bottom of each page. 
 
 
-Features Left to Implement
+###Features Left to Implement###
 Another feature idea was to add a direct file download and guide to installation, not just links to pages where this is available.
  This would require file hosting and 
 a rundown of the method for installation
 
-Another feature idea was to include gameplay videos, as there are many amateur youtube gamers that play the mod this would boost interaction
+*Another feature idea was to include gameplay videos, as there are many amateur youtube gamers that play the mod this would boost interaction
  and would give new users
 who have never seen the mod more of a feel of the direct gameplay. 
 
-Another feature idea was to add a review section as this mod was nominated for mod of the year 09,10 and is largely popular among users
+*Another feature idea was to add a review section as this mod was nominated for mod of the year 09,10 and is largely popular among users
  and displaying these would boost user engagement and provide feedback to the creators.
 
-Another feature idea was to add more media of direct gameplay including videos and images, however this would require better rendering
+*Another feature idea was to add more media of direct gameplay including videos and images, however this would require better rendering
  than I have available. 
 
-Another feature idea was an article or blogs page about gaming articles that user may find interesting although not directly linked 
+*Another feature idea was an article or blogs page about gaming articles that user may find interesting although not directly linked 
 to the mod would boost engagement and site traffic. 
 
-Another feature idea was to add a link to twitch streaming servers/ to have imbedded streams of players who play the game, either live
+*Another feature idea was to add a link to twitch streaming servers/ to have imbedded streams of players who play the game, either live
  or recorded again increasing awareness as such streamers would likely mention the mod site while playing. 
 
-Another feature idea for the factions pages was to add a gallery in more of a photo grid style of some of the units from each faction to show user
+*Another feature idea for the factions pages was to add a gallery in more of a photo grid style of some of the units from each faction to show user
 more gameplay elements. Again would require proper rendering.
 
 
-Technologies Used
+###Technologies Used###
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-HTML 5 - Used for content hosting -
-CSS - Used for style and animation -
-BOOTSTRAP 4 - uses include modal, framework, navbar, dropdown, carousel, footer -
-FontAwesome - used for icons in footer for links to social pages and on some download links -
-GoogleFonts - used for fonts - 
-GIPHY - used to create hero gif from game intro video -
-Paint - used to edit photos for faction logos -
+*HTML 5 - Used for content hosting -
+*CSS - Used for style and animation -
+*BOOTSTRAP 4 - uses include modal, framework, navbar, dropdown, carousel, footer -
+*FontAwesome - used for icons in footer for links to social pages and on some download links -
+*GoogleFonts - used for fonts - 
+*GIPHY - used to create hero gif from game intro video -
+*Paint - used to edit photos for faction logos -
 
 
-Testing
+###Testing###
 
 Navigation:
 Go to 'index' and confirm that clicking 'Home' refreshed 'index.html'
@@ -164,7 +163,7 @@ Try to submit the form with an invalid email address and verify that a relevant 
 Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-Responsive Design Elements
+###Responsive Design Elements###
 
 Mobile Size:
 
@@ -193,7 +192,7 @@ Ipad and Ipad pro:
 Although largely similar to desktop some small format changes added along with natural font and 
 padding alterations and on 'good.html' and 'evil.html' factions pages, faction logo and descriptions are 2 per row so still easily readable. 
 
-Bugs
+###Bugs###
 
 For mobile sizes there is a wierd margin on the right, that is not affected by padding or 
 any CSS code when inspected. Could be something to do with the actual screen size on iphone being 
@@ -205,7 +204,7 @@ Not ideal but after the transition finishes layout format still looks good. Like
 transition is slower than the duration given and makes the whole page kind of 'clunky' until it is over.
 
 
-Deployment
+###Deployment###
 Began with the index page, creating the navbar, with logos, and social links appling all relevant links to libraries and 
 tool (bootstrap, fontawesome, etc).
 Fully formated navbar and links using CSS and copied to other 3 pages ('evil.html', 'good.html', 'contact.html')
@@ -230,7 +229,7 @@ to alter. This meant elements such as the menu dropdown were added early on mean
 The github branch is origin in the Milestone-Project-Third-Age-Total-War directory. No other branches were used and for local running of code enter
 python3 -m http.server.
 
-Credits
+###Credits###
 Content
 The text for section Y was copied from the Wikipedia article Z
 The text for Faction Descriptions was taken from in game descriptions and highly edited/ paraphrased (much longer ingame, so some bits omitted and some bits 'read between the lines', but all fact checked).
@@ -239,13 +238,13 @@ The dropdown element for entire navbar in mobile view was taken from the Whiskey
 The button modal element was taken  https://getbootstrap.com/docs/4.0/components/carousel/  
 The footer format was taken from  https://mdbootstrap.com/docs/jquery/navigation/footer/
 
-Media
+###Media###
 The photos used in this site were obtained from ...
 https://www.moddb.com/mods/third-age-total-war
 Icons in footer from FontAwesome
 Logos (third age and total war) from Google image search
 
-Acknowledgements
+###Acknowledgements###
 I received inspiration for this project from Rhey Ann Magcalas.
 Appreciated to Elsie Ducreux and Simon Lyrhem for user testing. 
 
